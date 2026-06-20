@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoopeAgro - Solicitud de Asociación</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/herramientas.css">
+</head>
+<body>
+
+     <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo CoopUnión" class="logo-img">
+                    <span class="logo-texto">CoopUnión</span>
+                </a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icono">☰</label>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos Financieros</a></li>
+                <li><a href="herramientas.html">Asóciate</a></li>
+                <li><a href="nosotros.html">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-herramientas">
+        <section id="asociacion" class="seccion-box">
+            <h2>Formulario de Solicitud de Asociación</h2>
+            <p class="subtitle">Completa tus datos personales básicos para iniciar tu registro. Un asesor se comunicará contigo.</p>
+            
+            <form class="form-simulador" action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Carlos Pérez" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dpi">Número de DPI / Identificación:</label>
+                        <input type="text" id="dpi" name="dpi" placeholder="Ej. 2514 18452 0101" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 5555-1234" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección de Residencia:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Ej. Aldea Loma Alta, San Juan Sacatepéquez" required>
+                </div>
+
+                <button type="submit" class="btn-calc">Enviar Solicitud de Ingreso</button>
+            </form>
+        </section>
+
+        <section id="requisitos" class="seccion-box">
+            <h2>Requisitos que debes presentar en Sucursal</h2>
+            <p class="subtitle">Para finalizar tu afiliación, deberás acercarte a nuestra oficina con lo siguiente:</p>
+            <ul class="lista-requisitos">
+                <li>Documento de Identificación Personal (DPI) original y copia.</li>
+                <li>Recibo de servicios públicos (Luz o Agua) reciente de tu vivienda.</li>
+                
+                <li>Aporte inicial de <strong>Q50.00</strong> para la apertura de tus aportaciones de socio.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CoopUnión. Tú esfuerzo unido a nuestro apoyo.</p>
+    </footer>
+
+</body>
+</html>
